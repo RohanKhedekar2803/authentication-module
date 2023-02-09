@@ -1,0 +1,5 @@
+<button class="Btn">
+    <i class="bi bi-box-arrow-in-right " *ngIf=" !hasroute('/home')"></i>
+    <a class="Login" style="color: white; text-decoration: none;" routerLink='{{link}}'>{{text}}</a>
+    <i class="bi bi-geo" *ngIf=" hasroute('/home')"></i>
+</button>

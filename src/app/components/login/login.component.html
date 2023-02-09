@@ -1,0 +1,23 @@
+<div class="Card">
+    <div style="padding: 5%;  width: auto; width: 80% ;padding-top: 6%;">
+        <form (ngSubmit)="OnSubmit()">
+
+            <div style="font-weight: 600; font-size: x-large;">
+                Login
+            </div>
+            
+            <div class="Inpbox">
+                <input type="email" [(ngModel)]="mail" id="mail" name="mail" placeholder="Email Address*" class="Inp"><br>
+                <input type="password" [(ngModel)]="password" id="password" name="password" placeholder="Password*" class="Inp">
+            </div>
+
+            <div style="margin-top: 10%; display: flex; align-items: center; justify-content: center; ">
+                <button type="submit" style="border-radius: 10% ; background-color: rgb(130, 130, 221); padding: 2%; padding-left: 4%; padding-right: 4%; border: rgb(118, 118, 218);">Login</button>
+            </div>
+
+            <div style="margin-top: 4%; display: flex; justify-content: center;">
+                <div>New to Platform <a routerLink="/signup">  Sign Up</a></div>
+            </div>
+        </form>    
+    </div>
+</div>

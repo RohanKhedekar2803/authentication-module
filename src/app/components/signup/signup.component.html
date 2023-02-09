@@ -1,0 +1,23 @@
+<div class="Card">
+    <div style="padding: 5%;  width: auto; width: 80% ;padding-top: 6%;">
+        <form (submit)="OnSubmit()">
+
+            <div style="font-weight: 600; font-size: x-large;">
+                Sign up for new Users!
+            </div>
+            
+            <div class="Inpbox">
+                <input type="text" [(ngModel)]="name" id="name" name="name" placeholder="Enter Your Name*" class="Inp"><br>
+                <input type="email" [(ngModel)]="mail" id="mail" name="mail" placeholder="Email Address*" class="Inp"><br>
+                <input type="password" [(ngModel)]="password" id="password" name="password" placeholder="Password*" class="Inp"><br>
+                <input type="password" [(ngModel)]="repassword" id="repassword" name="repassword" placeholder=" Re-enter Password*" class="Inp">
+            </div>
+
+            <div style="margin-top: 10%; display: flex; align-items: center; justify-content: center; ">
+                <button type="submit" style="border-radius: 10% ; background-color: rgb(130, 130, 221); padding: 2%; padding-left: 4%; padding-right: 4%; border: rgb(118, 118, 218);">SignUp</button>
+            </div>
+
+            
+        </form>    
+    </div>
+</div>

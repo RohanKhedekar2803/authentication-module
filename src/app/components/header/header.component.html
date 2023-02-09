@@ -1,0 +1,15 @@
+<header class="Header">
+    <div style="margin-left:5% ; padding: 1%; font-size: larger; font-weight: 600; color: aliceblue;">
+        Sign Up Flow with Firebase
+    </div>
+
+    
+    
+    
+    <div class="Btns" #loginpannel >
+        <app-button text="Login"  *ngIf="hasroute('/')"></app-button>
+        <app-button text="SignUp"  *ngIf="hasroute('/')" (click)="signup()"></app-button>
+        <app-deletebtn (logoutemit)="logout()" (profileemit)="profilenav()"></app-deletebtn>
+    </div>
+
+</header>

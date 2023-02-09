@@ -1,0 +1,29 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(130, 130, 221);
+}
+
+.Btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: rgb(130, 130, 221);
+    background-color: rgb(130, 130, 221);
+    color:white;
+    font-size: larger; font-weight: 600;
+    width: 100%;
+    margin: 1%;
+
+}
+.Login{
+    margin-left: 6%;
+}
+.Btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2%;
+}
+

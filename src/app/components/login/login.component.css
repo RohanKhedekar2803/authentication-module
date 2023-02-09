@@ -1,0 +1,31 @@
+.Card{
+    width: 40%;
+    height: 40%;
+    background-color: rgb(209, 230, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 3%;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.Inp{
+    background-color: rgb(209, 230, 238);
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: solid;
+  outline: none;
+}
+.Inp:hover{
+    border-bottom-style: groove;
+}
+
+
+.Inpbox{
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+}

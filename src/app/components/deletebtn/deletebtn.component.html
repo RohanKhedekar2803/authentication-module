@@ -1,0 +1,13 @@
+<div class="row"  *ngIf="hasroute('/home')">
+    <div class="col">
+        <div ngbDropdown class="d-inline-block">
+            <button type="button" class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>
+                Profile
+            </button>
+            <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                <button ngbDropdownItem (click)="logouttrig()">Logout</button>
+                <button ngbDropdownItem (click)="profiletrig()">Profile</button>
+            </div>
+        </div>
+    </div>
+</div>
